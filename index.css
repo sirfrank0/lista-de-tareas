@@ -1,0 +1,343 @@
+@import url('https://fonts.cdnfonts.com/css/romantic-couple');
+@import url('https://fonts.cdnfonts.com/css/forum');
+@import url('https://fonts.cdnfonts.com/css/milonga');
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+:root {
+    
+    
+    --beige1: #E9E6DF;
+    --white1: #fffffff8;
+    --blue1: #2B3147;
+    --gold1: #D1CEC6;
+
+
+
+
+    --shadow-drop: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.71));
+
+
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* para eliminar tareas*/
+
+
+
+
+
+.completed{
+    
+    background-color: rgb(61, 157, 125) !important;
+    color: var(--white1) !important;
+    
+}
+
+
+.completed p{
+    text-decoration:line-through;
+}
+
+.completed .details{
+    color: var(--white1) !important;
+}
+
+
+/* para prioridad*/
+
+.prioridad{
+    background-color: rgb(198, 83, 83) !important;
+    border: 1px solid var(--white1) !important;
+    color: var(--white1) !important;
+}
+
+.prioridad .details{
+    color: var(--white1) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color: var(--beige1);
+    color: var(var(--blue1));
+    font-size: 16px;
+    font-family: 'Forum', sans-serif;
+    
+    
+}
+
+nav{
+    background-color: var(--blue1);
+    color: var(--white1);
+    font-family: 'Romantic Couple', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    display: flex;
+    padding: 0.7rem;
+    justify-content: space-between;
+    filter: var(--shadow-drop);
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+
+}
+
+
+nav p{
+    font-size: 1.5rem;
+    color: var(--beige1);
+}
+
+nav a
+{
+    text-decoration: none;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+
+}
+
+ul li{
+    background-color: var(--white1);
+    color: var(--blue1);
+    border-radius: 12px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    filter: var(--shadow-drop);
+    font-size: 18px;
+    
+}
+
+.julieth-li{
+    background-color: #FFF5FB;
+    color: #B88BAC;;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    margin: auto;
+    margin-top: 6.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.title-pic{
+
+    margin-bottom: 2rem;
+    
+}
+
+.cont-h2{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.cont-h2 img{
+    width:50px;
+    height:50px;
+    border: solid 2px var(--blue1);
+    border-radius: 99px;
+    margin-bottom: 1rem;
+}
+
+
+
+
+h2{
+    font-family: 'Romantic Couple', sans-serif;
+    text-align: left;
+    font-size: 2.5rem;
+    
+}
+
+
+article{
+    background-color:var(--blue1);
+    color: var(--white1);
+    
+    padding: 16px;
+    border-radius: 8px;
+    filter: var(--shadow-drop);
+    margin-bottom: 1rem;
+
+}
+
+.p-article{
+    font-size: 18px;
+    
+}
+
+.article-top-text{
+    display: flex;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.article-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div-link{
+    background-color: var(--white1);
+    border-radius: 8px;
+    padding: 4px;
+    text-align: center;
+    filter: drop-shadow(0px 4px 6px rgba(7, 8, 12, 0.71));
+    width: 100px;
+    max-height: 28px;
+
+   
+    
+}
+
+.div-link a{
+    text-decoration:none;
+    color: var(--blue1);
+    font-size: 1rem;
+    font-weight: 900;
+    display: block;
+    width: 100%;
+
+}
+
+.article-details{
+    padding-right: 8px;
+    font-weight: 100;
+    
+}
+
+.details{
+    font-size: 14px;
+    color: var(--gold1);
+}
+
+.details-2{
+    font-size: 14px;
+}
+
+.cont-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 1rem;
+    background-color: var(--blue1);
+    padding: 8px;
+    border: 1px solid var(--white1);
+    
+}
+
+.cont-img p{
+    color: var(--white1);
+    
+}
+
+.cont-img img{
+    max-width: 130px;
+    max-height: 80px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+    border: 2px solid var(--white1);
+    
+
+
+    
+}
+
+
+#frank{
+    margin-bottom: 2rem;
+}
+
+#julieth h2{
+    color: #B88BAC;
+}
+
+#julieth .cont-h2 img{
+    border: solid 2px #B88BAC;
+
+}
+
+#julieth article{
+    background-color: #FFF5FB;
+    color: #B88BAC;
+}
+
+
+#julieth .div-link{
+    background-color:#B88BAC;
+}
+
+
+#julieth .div-link a{
+    color: #FFF5FB;
+}
+
+#julieth .details{
+    color: #857088;
+}
+
+#julieth .div-link{
+    filter: drop-shadow(0px 2px 4px rgba(40, 31, 38, 0.71));
+}
+
+#julieth{
+    margin-bottom: 1rem;
+}
+
+
+
+.completed .cont-img p{
+    text-decoration: none ;
+}
